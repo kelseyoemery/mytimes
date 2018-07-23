@@ -1,3 +1,12 @@
+/* Universal Syle*/
+body {
+  margin: 0;
+  font-family: "georgia", serif;
+  font-size: 17px;
+  color: black;
+  height: 100%
+}
+
 /* Header */
 header {
   display: flex;
@@ -58,12 +67,32 @@ nav a {
   flex-direction: column;
   align-content: space-between;
   margin-right: 32px;
+  font-family: Georgia serif;
+  font-size: 17px;
+  color: black
 }
 
 /* First Column */
 .column.large {
   display: flex;
   width: 630px;
+}
+
+.img {
+  color: white;
+  font-size: 30px;
+  font-family: Georgia;
+  font-weight: bold;
+}
+
+.large .lead {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  background-repeat: no-repeat;
+  width: 630px;
+  height: 300px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
 }
 
 /*Second Column*/
