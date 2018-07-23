@@ -13,9 +13,19 @@ header {
   background-color: white;
 }
 
+div {
+  border: 2px solid black;
+}
+
+
 header nav {
   display: inline-block;
   padding-right: 40px;
+  color: black;
+}
+
+nav a {
+  color: black;
 }
 
 .logo {
@@ -33,4 +43,37 @@ header nav {
 
 .logo span {
   color: mediumaquamarine;
+}
+
+/* Main Container */
+.content {
+  display: flex;
+  padding-top: 100px;
+  margin: 0 auto 78px auto;
+  width: 1232px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  margin-right: 32px;
+}
+
+/* First Column */
+.column.large {
+  display: flex;
+  width: 630px;
+}
+
+/*Second Column*/
+.column.medium {
+  display: flex;
+  width: 300px;
+}
+
+/*Third Column */
+.column.small {
+  display: flex;
+  width: 240px;
 }
